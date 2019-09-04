@@ -1,0 +1,108 @@
+{
+	"__comment": "Designed by Randamonium with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"Crop-Hit": "block/black_concrete_powder",
+		"Crop": "block/black_concrete"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Crop",
+			"from": [ 6, 22, 0 ],
+			"to": [ 10, 24, 1 ],
+			"faces": {
+				"down": { "uv": [ 6, 15, 10, 16 ], "texture": "#Crop-Hit" },
+				"up": { "uv": [ 6, 0, 10, 1 ], "texture": "#Crop-Hit" },
+				"north": { "uv": [ 10, 8, 6, 10 ], "texture": "#Crop-Hit" },
+				"south": { "uv": [ 6, 8, 10, 10 ], "texture": "#Crop-Hit" },
+				"west": { "uv": [ 0, 8, 1, 10 ], "texture": "#Crop-Hit" },
+				"east": { "uv": [ 1, 8, 0, 10 ], "texture": "#Crop-Hit" }
+			}
+		},
+		{
+			"__comment": "Crop1",
+			"from": [ 6.5, 20.5, 0 ],
+			"to": [ 9.5, 22, 1 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 15, 9.5, 16 ], "texture": "#Crop-Hit" },
+				"up": { "uv": [ 6.5, 0, 9.5, 1 ], "texture": "#Crop-Hit" },
+				"north": { "uv": [ 9.5, 10, 6.5, 11.5 ], "texture": "#Crop-Hit" },
+				"south": { "uv": [ 6.5, 10, 9.5, 11.5 ], "texture": "#Crop-Hit" },
+				"west": { "uv": [ 0, 10, 1, 11.5 ], "texture": "#Crop-Hit" },
+				"east": { "uv": [ 1, 10, 0, 11.5 ], "texture": "#Crop-Hit" }
+			}
+		},
+		{
+			"__comment": "Crop2",
+			"from": [ 7, 0, 0 ],
+			"to": [ 9, 8, 1 ],
+			"faces": {
+				"down": { "uv": [ 7, 15, 9, 16 ], "texture": "#Crop" },
+				"up": { "uv": [ 7, 0, 9, 1 ], "texture": "#Crop" },
+				"north": { "uv": [ 9, 8, 7, 16 ], "texture": "#Crop" },
+				"south": { "uv": [ 7, 8, 9, 16 ], "texture": "#Crop" },
+				"west": { "uv": [ 0, 8, 1, 16 ], "texture": "#Crop" },
+				"east": { "uv": [ 1, 8, 0, 16 ], "texture": "#Crop" }
+			}
+		},
+		{
+			"__comment": "Crop3",
+			"from": [ 7, 19.5, 0 ],
+			"to": [ 9, 20.5, 1 ],
+			"faces": {
+				"down": { "uv": [ 7, 15, 9, 16 ], "texture": "#Crop-Hit" },
+				"up": { "uv": [ 7, 0, 9, 1 ], "texture": "#Crop-Hit" },
+				"north": { "uv": [ 9, 11.5, 7, 12.5 ], "texture": "#Crop-Hit" },
+				"south": { "uv": [ 7, 11.5, 9, 12.5 ], "texture": "#Crop-Hit" },
+				"west": { "uv": [ 0, 11.5, 1, 12.5 ], "texture": "#Crop-Hit" },
+				"east": { "uv": [ 1, 11.5, 0, 12.5 ], "texture": "#Crop-Hit" }
+			}
+		},
+		{
+			"__comment": "Crop4",
+			"from": [ 7.5, 8, 0 ],
+			"to": [ 8.5, 19.5, 1 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 15, 8.5, 16 ], "texture": "#Crop" },
+				"up": { "uv": [ 7.5, 0, 8.5, 1 ], "texture": "#Crop" },
+				"north": { "uv": [ 8.5, 0, 7.5, 8 ], "texture": "#Crop" },
+				"south": { "uv": [ 7.5, 0, 8.5, 8 ], "texture": "#Crop" },
+				"west": { "uv": [ 0, 0, 1, 8 ], "texture": "#Crop" },
+				"east": { "uv": [ 1, 0, 0, 8 ], "texture": "#Crop" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 45, 0, 0 ],
+			"translation":  [ 0, -2, 4.5 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 45, 0, 0 ],
+			"translation":  [ 0, -2, 4.5 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 23, 0, -45 ],
+			"translation":  [ -2, -3.5, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 2 ],
+			"scale":  [ 0.2, 0.2, 0.2 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 0, 45 ],
+			"translation":  [ 2, -2, 5 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

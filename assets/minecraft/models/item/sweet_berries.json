@@ -1,0 +1,17 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/sweet_berries"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "food/blackberry"},
+		{ "predicate": {"custom_model_data": 2}, "model": "food/blueberry"},
+		{ "predicate": {"custom_model_data": 3}, "model": "food/cranberry"},
+		{ "predicate": {"custom_model_data": 4}, "model": "food/grape"},
+		{ "predicate": {"custom_model_data": 5}, "model": "food/green_grape"},
+		{ "predicate": {"custom_model_data": 6}, "model": "food/cactus_fruit"},
+		{ "predicate": {"custom_model_data": 7}, "model": "food/raspberry"},
+		{ "predicate": {"custom_model_data": 8}, "model": "food/strawberry"},
+		{ "predicate": {"custom_model_data": 9}, "model": "food/cherry"}
+	]
+}

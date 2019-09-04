@@ -1,0 +1,18 @@
+{
+	"__comment": "Designed by Randamonium with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/birch_planks",
+		"back": "block/item_frame"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 0, 0, 16 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 1, 1, 15, 15 ], "texture": "#back" },
+				"south": { "uv": [ 1, 1, 15, 15 ], "texture": "#back" }
+			}
+		}
+	]
+}

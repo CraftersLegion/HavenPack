@@ -1,0 +1,735 @@
+{
+	"__comment": "Designed by Randamonium for The Craftico Project",
+	"textures": {
+		"Hat": "block/purple_concrete",
+		"Wonka": "cosmetic/hat/wonka"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Voxels",
+			"from": [ 0, 0, 2 ],
+			"to": [ 16, 0.5, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 2, 16, 14 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 0, 2, 16, 14 ], "texture": "#Hat" },
+				"north": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#Hat" },
+				"south": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#Hat" },
+				"west": { "uv": [ 2, 15.5, 14, 16 ], "texture": "#Hat", "cullface": "west" },
+				"east": { "uv": [ 2, 15.5, 14, 16 ], "texture": "#Hat", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 0, 0.5, 3 ],
+			"to": [ 16, 1, 13 ],
+			"faces": {
+				"up": { "uv": [ 0, 3, 16, 13 ], "texture": "#Hat" },
+				"north": { "uv": [ 0, 15, 16, 15.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 0, 15, 16, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 3, 15, 13, 15.5 ], "texture": "#Hat", "cullface": "west" },
+				"east": { "uv": [ 3, 15, 13, 15.5 ], "texture": "#Hat", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 0.5, 0.5, 2 ],
+			"to": [ 15.5, 1, 3 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 2, 15.5, 3 ], "texture": "#Hat" },
+				"north": { "uv": [ 0.5, 15, 15.5, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 2, 15, 3, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 13, 15, 14, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 0.5, 0.5, 13 ],
+			"to": [ 15.5, 1, 14 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 13, 15.5, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 0.5, 15, 15.5, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 13, 15, 14, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2, 15, 3, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 0.5, 1, 4 ],
+			"to": [ 15.5, 1.5, 12 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 4, 15.5, 12 ], "texture": "#Hat" },
+				"north": { "uv": [ 0.5, 14.5, 15.5, 15 ], "texture": "#Hat" },
+				"south": { "uv": [ 0.5, 14.5, 15.5, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 4, 14.5, 12, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 4, 14.5, 12, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 0, 1 ],
+			"to": [ 15, 0.5, 2 ],
+			"faces": {
+				"down": { "uv": [ 1, 14, 15, 15 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 1, 1, 15, 2 ], "texture": "#Hat" },
+				"north": { "uv": [ 1, 15.5, 15, 16 ], "texture": "#Hat" },
+				"west": { "uv": [ 1, 15.5, 2, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 14, 15.5, 15, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 0, 14 ],
+			"to": [ 15, 1, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 1, 1.5, 15, 2 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 1, 14, 15, 14.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 1, 15, 15, 16 ], "texture": "#Hat" },
+				"south": { "uv": [ 1, 15, 15, 16 ], "texture": "#Hat" },
+				"west": { "uv": [ 14, 15, 14.5, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 1.5, 15, 2, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 0, 14.5 ],
+			"to": [ 15, 0.5, 15 ],
+			"faces": {
+				"down": { "uv": [ 1, 1, 15, 1.5 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 1, 14.5, 15, 15 ], "texture": "#Hat" },
+				"south": { "uv": [ 1, 15.5, 15, 16 ], "texture": "#Hat" },
+				"west": { "uv": [ 14.5, 15.5, 15, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 1, 15.5, 1.5, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 0.5, 1.5 ],
+			"to": [ 15, 1, 2 ],
+			"faces": {
+				"up": { "uv": [ 1, 1.5, 15, 2 ], "texture": "#Hat" },
+				"north": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 1.5, 15, 2, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 14, 15, 14.5, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 1, 2.5 ],
+			"to": [ 15, 1.5, 4 ],
+			"faces": {
+				"down": { "uv": [ 1, 12, 15, 13.5 ], "texture": "#Hat" },
+				"up": { "uv": [ 1, 2.5, 15, 4 ], "texture": "#Hat" },
+				"north": { "uv": [ 1, 14.5, 15, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 2.5, 14.5, 4, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 12, 14.5, 13.5, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 1, 12 ],
+			"to": [ 15, 1.5, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 1, 2.5, 15, 4 ], "texture": "#Hat" },
+				"up": { "uv": [ 1, 12, 15, 13.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 1, 14.5, 15, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 12, 14.5, 13.5, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 2.5, 14.5, 4, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1, 1.5, 4 ],
+			"to": [ 15, 2, 12 ],
+			"faces": {
+				"up": { "uv": [ 1, 4, 15, 12 ], "texture": "#Hat" },
+				"north": { "uv": [ 1, 14, 15, 14.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 1, 14, 15, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 4, 14, 12, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 4, 14, 12, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 0.5, 1 ],
+			"to": [ 14.5, 1, 1.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 1, 14.5, 1.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 1.5, 15, 14.5, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 1, 15, 1.5, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 14.5, 15, 15, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 0.5, 14.5 ],
+			"to": [ 14.5, 1, 15 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 14.5, 14.5, 15 ], "texture": "#Hat" },
+				"south": { "uv": [ 1.5, 15, 14.5, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 14.5, 15, 15, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 1, 15, 1.5, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 1, 2 ],
+			"to": [ 14.5, 1.5, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 2, 14.5, 2.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 1.5, 14.5, 14.5, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 2, 14.5, 2.5, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 13.5, 14.5, 14, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 1, 13.5 ],
+			"to": [ 14.5, 1.5, 14 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 13.5, 14.5, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 1.5, 14.5, 14.5, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 13.5, 14.5, 14, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 2, 14.5, 2.5, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 1.5, 2.5 ],
+			"to": [ 14.5, 2, 4 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 2.5, 14.5, 4 ], "texture": "#Hat" },
+				"north": { "uv": [ 1.5, 14, 14.5, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 2.5, 14, 4, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 12, 14, 13.5, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 1.5, 12 ],
+			"to": [ 14.5, 2, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 12, 14.5, 13.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 1.5, 14, 14.5, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 12, 14, 13.5, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2.5, 14, 4, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 1.5, 2, 4 ],
+			"to": [ 14.5, 2.5, 12 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 4, 14.5, 12 ], "texture": "#Hat" },
+				"north": { "uv": [ 1.5, 13.5, 14.5, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 1.5, 13.5, 14.5, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 4, 13.5, 12, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 4, 13.5, 12, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 0, 0 ],
+			"to": [ 14, 0.5, 1 ],
+			"faces": {
+				"down": { "uv": [ 2, 15, 14, 16 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 2, 0, 14, 1 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 15.5, 14, 16 ], "texture": "#Hat", "cullface": "north" },
+				"west": { "uv": [ 0, 15.5, 1, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 15, 15.5, 16, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 0, 15 ],
+			"to": [ 14, 1, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 2, 0.5, 14, 1 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 2, 15, 14, 15.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 15, 14, 16 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 15, 14, 16 ], "texture": "#Hat" },
+				"west": { "uv": [ 15, 15, 15.5, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 0.5, 15, 1, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 0, 15.5 ],
+			"to": [ 14, 0.5, 16 ],
+			"faces": {
+				"down": { "uv": [ 2, 0, 14, 0.5 ], "texture": "#Hat", "cullface": "down" },
+				"up": { "uv": [ 2, 15.5, 14, 16 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 15.5, 14, 16 ], "texture": "#Hat", "cullface": "south" },
+				"west": { "uv": [ 15.5, 15.5, 16, 16 ], "texture": "#Hat" },
+				"east": { "uv": [ 0, 15.5, 0.5, 16 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 0.5, 0.5 ],
+			"to": [ 14, 1, 1 ],
+			"faces": {
+				"up": { "uv": [ 2, 0.5, 14, 1 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 15, 14, 15.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 0.5, 15, 1, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 15, 15, 15.5, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 1, 1.5 ],
+			"to": [ 14, 1.5, 2 ],
+			"faces": {
+				"up": { "uv": [ 2, 1.5, 14, 2 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 14.5, 14, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 1.5, 14.5, 2, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 14, 14.5, 14.5, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 1, 14 ],
+			"to": [ 14, 1.5, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 2, 14, 14, 14.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 14.5, 14, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 14, 14.5, 14.5, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 1.5, 14.5, 2, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 1.5, 2 ],
+			"to": [ 14, 2, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 2, 2, 14, 2.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 14, 14, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 2, 14, 2.5, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 13.5, 14, 14, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 1.5, 13.5 ],
+			"to": [ 14, 2, 14 ],
+			"faces": {
+				"up": { "uv": [ 2, 13.5, 14, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 14, 14, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 13.5, 14, 14, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2, 14, 2.5, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 2, 3.5 ],
+			"to": [ 14, 2.5, 4 ],
+			"faces": {
+				"up": { "uv": [ 2, 3.5, 14, 4 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 13.5, 14, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 3.5, 13.5, 4, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 12, 13.5, 12.5, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 2, 12 ],
+			"to": [ 14, 2.5, 12.5 ],
+			"faces": {
+				"up": { "uv": [ 2, 12, 14, 12.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 13.5, 14, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 12, 13.5, 12.5, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 3.5, 13.5, 4, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 2.5, 4 ],
+			"to": [ 14, 15.5, 12 ],
+			"faces": {
+				"up": { "uv": [ 2, 4, 14, 12 ], "texture": "#Hat" },
+				"north": { "uv": [ 2, 0.5, 14, 13.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2, 0.5, 14, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 4, 0.5, 12, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 4, 0.5, 12, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 1, 1 ],
+			"to": [ 13.5, 1.5, 1.5 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 1, 13.5, 1.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 2.5, 14.5, 13.5, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 1, 14.5, 1.5, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 14.5, 14.5, 15, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 1, 14.5 ],
+			"to": [ 13.5, 1.5, 15 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 14.5, 13.5, 15 ], "texture": "#Hat" },
+				"south": { "uv": [ 2.5, 14.5, 13.5, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 14.5, 14.5, 15, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 1, 14.5, 1.5, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 1.5, 1.5 ],
+			"to": [ 13.5, 2, 2 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 1.5, 13.5, 2 ], "texture": "#Hat" },
+				"north": { "uv": [ 2.5, 14, 13.5, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 1.5, 14, 2, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 14, 14, 14.5, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 1.5, 14 ],
+			"to": [ 13.5, 2, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 14, 13.5, 14.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2.5, 14, 13.5, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 14, 14, 14.5, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 1.5, 14, 2, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 2, 2.5 ],
+			"to": [ 13.5, 2.5, 3.5 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 2.5, 13.5, 3.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 2.5, 13.5, 13.5, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 2.5, 13.5, 3.5, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 12.5, 13.5, 13.5, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 2, 12.5 ],
+			"to": [ 13.5, 2.5, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 12.5, 13.5, 13.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2.5, 13.5, 13.5, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 12.5, 13.5, 13.5, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 2.5, 13.5, 3.5, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 2.5, 3.5 ],
+			"to": [ 13.5, 15.5, 4 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 3.5, 13.5, 4 ], "texture": "#Hat" },
+				"north": { "uv": [ 2.5, 0.5, 13.5, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 3.5, 0.5, 4, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 12, 0.5, 12.5, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 2.5, 12 ],
+			"to": [ 13.5, 15.5, 12.5 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 12, 13.5, 12.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2.5, 0.5, 13.5, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 12, 0.5, 12.5, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 3.5, 0.5, 4, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2.5, 15.5, 4 ],
+			"to": [ 13.5, 16, 12 ],
+			"faces": {
+				"up": { "uv": [ 2.5, 4, 13.5, 12 ], "texture": "#Hat", "cullface": "up" },
+				"north": { "uv": [ 2.5, 0, 13.5, 0.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 2.5, 0, 13.5, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 4, 0, 12, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 4, 0, 12, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 0.5, 0 ],
+			"to": [ 13, 1, 0.5 ],
+			"faces": {
+				"up": { "uv": [ 3, 0, 13, 0.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 3, 15, 13, 15.5 ], "texture": "#Hat", "cullface": "north" },
+				"west": { "uv": [ 0, 15, 0.5, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 15.5, 15, 16, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 0.5, 15.5 ],
+			"to": [ 13, 1, 16 ],
+			"faces": {
+				"up": { "uv": [ 3, 15.5, 13, 16 ], "texture": "#Hat" },
+				"south": { "uv": [ 3, 15, 13, 15.5 ], "texture": "#Hat", "cullface": "south" },
+				"west": { "uv": [ 15.5, 15, 16, 15.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 0, 15, 0.5, 15.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 2.5, 3 ],
+			"to": [ 13, 15.5, 3.5 ],
+			"faces": {
+				"up": { "uv": [ 3, 3, 13, 3.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 3, 0.5, 13, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 3, 0.5, 3.5, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 12.5, 0.5, 13, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 2.5, 12.5 ],
+			"to": [ 13, 15.5, 13 ],
+			"faces": {
+				"up": { "uv": [ 3, 12.5, 13, 13 ], "texture": "#Hat" },
+				"south": { "uv": [ 3, 0.5, 13, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 12.5, 0.5, 13, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 3, 0.5, 3.5, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 15.5, 3.5 ],
+			"to": [ 13, 16, 4 ],
+			"faces": {
+				"up": { "uv": [ 3, 3.5, 13, 4 ], "texture": "#Hat", "cullface": "up" },
+				"north": { "uv": [ 3, 0, 13, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 3.5, 0, 4, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 12, 0, 12.5, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3, 15.5, 12 ],
+			"to": [ 13, 16, 12.5 ],
+			"faces": {
+				"up": { "uv": [ 3, 12, 13, 12.5 ], "texture": "#Hat", "cullface": "up" },
+				"south": { "uv": [ 3, 0, 13, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 12, 0, 12.5, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 3.5, 0, 4, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 1.5, 1 ],
+			"to": [ 12, 2, 1.5 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 1, 12, 1.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 4, 14, 12.5, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 1, 14, 1.5, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 14.5, 14, 15, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 2, 2 ],
+			"to": [ 12.5, 2.5, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 2, 12.5, 2.5 ], "texture": "#Hat" },
+				"north": { "uv": [ 3.5, 13.5, 12.5, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 2, 13.5, 2.5, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 13.5, 13.5, 14, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 2, 13.5 ],
+			"to": [ 12.5, 2.5, 14 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 13.5, 12.5, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 3.5, 13.5, 12.5, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 13.5, 13.5, 14, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 2, 13.5, 2.5, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 2.5, 2.5 ],
+			"to": [ 12.5, 15.5, 3 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 2.5, 12.5, 3 ], "texture": "#Hat" },
+				"north": { "uv": [ 3.5, 0.5, 12.5, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 2.5, 0.5, 3, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 13, 0.5, 13.5, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 2.5, 13 ],
+			"to": [ 12.5, 15.5, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 13, 12.5, 13.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 3.5, 0.5, 12.5, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 13, 0.5, 13.5, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2.5, 0.5, 3, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 15.5, 3 ],
+			"to": [ 12.5, 16, 3.5 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 3, 12.5, 3.5 ], "texture": "#Hat", "cullface": "up" },
+				"north": { "uv": [ 3.5, 0, 12.5, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 3, 0, 3.5, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 12.5, 0, 13, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 15.5, 12.5 ],
+			"to": [ 12.5, 16, 13 ],
+			"faces": {
+				"up": { "uv": [ 3.5, 12.5, 12.5, 13 ], "texture": "#Hat", "cullface": "up" },
+				"south": { "uv": [ 3.5, 0, 12.5, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 12.5, 0, 13, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 3, 0, 3.5, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 1, 0.5 ],
+			"to": [ 12, 1.5, 1 ],
+			"faces": {
+				"up": { "uv": [ 4, 0.5, 12, 1 ], "texture": "#Hat" },
+				"north": { "uv": [ 4, 14.5, 12, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 0.5, 14.5, 1, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 15, 14.5, 15.5, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 1, 15 ],
+			"to": [ 12, 1.5, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 4, 15, 12, 15.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 4, 14.5, 12, 15 ], "texture": "#Hat" },
+				"west": { "uv": [ 15, 14.5, 15.5, 15 ], "texture": "#Hat" },
+				"east": { "uv": [ 0.5, 14.5, 1, 15 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 1.5, 14.5 ],
+			"to": [ 12, 2, 15 ],
+			"faces": {
+				"up": { "uv": [ 4, 14.5, 12, 15 ], "texture": "#Hat" },
+				"south": { "uv": [ 4, 14, 12, 14.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 14.5, 14, 15, 14.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 1, 14, 1.5, 14.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 2, 1.5 ],
+			"to": [ 12, 2.5, 2 ],
+			"faces": {
+				"up": { "uv": [ 4, 1.5, 12, 2 ], "texture": "#Hat" },
+				"north": { "uv": [ 4, 13.5, 12, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 1.5, 13.5, 2, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 14, 13.5, 14.5, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 2, 14 ],
+			"to": [ 12, 2.5, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 4, 14, 12, 14.5 ], "texture": "#Hat" },
+				"south": { "uv": [ 4, 13.5, 12, 14 ], "texture": "#Hat" },
+				"west": { "uv": [ 14, 13.5, 14.5, 14 ], "texture": "#Hat" },
+				"east": { "uv": [ 1.5, 13.5, 2, 14 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 2.5, 2 ],
+			"to": [ 12, 15.5, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 4, 2, 12, 2.5 ], "texture": "#Wonka" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#Wonka" },
+				"west": { "uv": [ 0, 0, 16, 4.5 ], "texture": "#Wonka" },
+				"east": { "uv": [ 0, 0, 16, 4.5 ], "texture": "#Wonka" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 2.5, 13.5 ],
+			"to": [ 12, 15.5, 14 ],
+			"faces": {
+				"up": { "uv": [ 4, 13.5, 12, 14 ], "texture": "#Hat" },
+				"south": { "uv": [ 4, 0.5, 12, 13.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 13.5, 0.5, 14, 13.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2, 0.5, 2.5, 13.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 15.5, 2.5 ],
+			"to": [ 12, 16, 3 ],
+			"faces": {
+				"up": { "uv": [ 4, 2.5, 12, 3 ], "texture": "#Hat", "cullface": "up" },
+				"north": { "uv": [ 4, 0, 12, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 2.5, 0, 3, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 13, 0, 13.5, 0.5 ], "texture": "#Hat" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 15.5, 13 ],
+			"to": [ 12, 16, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 4, 13, 12, 13.5 ], "texture": "#Hat", "cullface": "up" },
+				"south": { "uv": [ 4, 0, 12, 0.5 ], "texture": "#Hat" },
+				"west": { "uv": [ 13, 0, 13.5, 0.5 ], "texture": "#Hat" },
+				"east": { "uv": [ 2.5, 0, 3, 0.5 ], "texture": "#Hat" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 2 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 2 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 4, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 4, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 22.5, 202.5, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"head": {
+			"translation":  [ 0, 15, 0 ],
+			"scale":  [ 1.2, 1.2, 1.2 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 180, 0 ]
+		}
+	}
+}

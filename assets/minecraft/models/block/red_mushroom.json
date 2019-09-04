@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/mushroom_base",
+		"cross": "block/red_mushroom",
+		"particle": "block/red_mushroom"
+	},
+	"elements": [
+		{
+			"from": [0.875, 0, 13.6198],
+			"to": [16.875, 16, 13.6823],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [2.375, 0, 13.6198], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [2.5, 0, 0.75],
+			"to": [2.5625, 16, 16.75],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [2.5, 0, 2.5], "rescale": true},
+			"faces": {
+				"east": {"uv": [1, 0, 14.625, 16], "texture": "#cross"},
+				"west": {"uv": [1, 0, 14.625, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "west",
+			"from": [1, 1, 1],
+			"to": [15, 1.001, 15],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#1"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#1"}
+			}
+		}
+	]
+}

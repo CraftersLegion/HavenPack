@@ -1,0 +1,6 @@
+{
+    "parent": "item/template/block",
+    "textures": {
+        "all": "block/copper_block"
+    }
+}

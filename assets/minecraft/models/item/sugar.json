@@ -1,0 +1,15 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/sugar"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "food/cocoa_powder"},
+		{ "predicate": {"custom_model_data": 2}, "model": "food/flour"},
+		{ "predicate": {"custom_model_data": 3}, "model": "food/salt"},
+		{ "predicate": {"custom_model_data": 4}, "model": "food/batter"},
+		{ "predicate": {"custom_model_data": 5}, "model": "food/dough"},
+		{ "predicate": {"custom_model_data": 6}, "model": "food/stock"},
+		{ "predicate": {"custom_model_data": 7}, "model": "food/gravy"}
+	]
+}

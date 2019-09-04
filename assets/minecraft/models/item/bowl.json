@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/bowl"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "tool/cooking/mixing_bowl"},
+		{ "predicate": {"custom_model_data": 2}, "model": "tool/cooking/mortar_and_pestle"},
+		{ "predicate": {"custom_model_data": 3}, "model": "tool/cooking/juicer"}
+	]
+}

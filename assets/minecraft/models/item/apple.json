@@ -1,0 +1,21 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/apple"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "food/green_apple"},
+		{ "predicate": {"custom_model_data": 2}, "model": "food/orange"},
+		{ "predicate": {"custom_model_data": 3}, "model": "food/banana"},
+		{ "predicate": {"custom_model_data": 4}, "model": "food/grapefruit"},
+		{ "predicate": {"custom_model_data": 5}, "model": "food/kiwifruit"},
+		{ "predicate": {"custom_model_data": 6}, "model": "food/mango"},
+		{ "predicate": {"custom_model_data": 7}, "model": "food/pineapple"},
+		{ "predicate": {"custom_model_data": 8}, "model": "food/lemon"},
+		{ "predicate": {"custom_model_data": 9}, "model": "food/lime"},
+		{ "predicate": {"custom_model_data": 10}, "model": "food/apricot"},
+		{ "predicate": {"custom_model_data": 11}, "model": "food/avocado"},
+		{ "predicate": {"custom_model_data": 12}, "model": "food/peach"},
+		{ "predicate": {"custom_model_data": 13}, "model": "food/plum"}
+	]
+}

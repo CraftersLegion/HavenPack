@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/beetroot_soup"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "food/potato_soup"},
+		{ "predicate": {"custom_model_data": 2}, "model": "food/vegetable_soup"},
+		{ "predicate": {"custom_model_data": 3}, "model": "food/cactus_soup"},
+		{ "predicate": {"custom_model_data": 4}, "model": "food/pumpkin_soup"},
+		{ "predicate": {"custom_model_data": 5}, "model": "food/carrot_soup"},
+		{ "predicate": {"custom_model_data": 6}, "model": "food/chicken_soup"}
+	]
+}

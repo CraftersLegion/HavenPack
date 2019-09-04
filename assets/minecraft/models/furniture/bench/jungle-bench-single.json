@@ -1,0 +1,898 @@
+{
+	"__comment": "Designed by Randamonium",
+	"textures": {
+		"Wood": "block/jungle_planks"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Wood-Bench-Single",
+			"from": [ 0, 0, 0.5 ],
+			"to": [ 16, 0.5, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#Wood" },
+				"south": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single1",
+			"from": [ 0, 15, 0.5 ],
+			"to": [ 16, 15.5, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0, 0.5, 16, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 0, 0.5, 16, 1 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 0.5, 15.5, 1 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 0.5, 15.5, 1 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single2",
+			"from": [ 0.5, 0, 0 ],
+			"to": [ 15.5, 0.5, 0.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"up": { "uv": [ 0.5, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"west": { "uv": [ 0, 15.5, 0.5, 16 ], "texture": "#Wood" },
+				"east": { "uv": [ 15.5, 15.5, 16, 16 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single3",
+			"from": [ 0.5, 0, 15.5 ],
+			"to": [ 15.5, 0.5, 16 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"west": { "uv": [ 15.5, 15.5, 16, 16 ], "texture": "#Wood" },
+				"east": { "uv": [ 0, 15.5, 0.5, 16 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single4",
+			"from": [ 0.5, 0.5, 1 ],
+			"to": [ 15.5, 1, 15 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 1, 15.5, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 15, 15.5, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 15, 15.5, 15.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single5",
+			"from": [ 0.5, 1, 1 ],
+			"to": [ 1.5, 15, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 14.5, 1, 15.5, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 1, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 1, 1, 1.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 1, 15, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single6",
+			"from": [ 0.5, 1, 1.5 ],
+			"to": [ 1.5, 3, 2 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 1.5, 1.5, 2 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 13, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 1.5, 13, 2, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 14, 13, 14.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single7",
+			"from": [ 0.5, 1, 2 ],
+			"to": [ 1.5, 2, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 2, 1.5, 2.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 14, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 2, 14, 2.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 13.5, 14, 14, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single8",
+			"from": [ 0.5, 1, 2.5 ],
+			"to": [ 1.5, 1.5, 3.5 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 2.5, 1.5, 3.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 14.5, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 2.5, 14.5, 3.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 12.5, 14.5, 13.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single9",
+			"from": [ 0.5, 1, 12.5 ],
+			"to": [ 1.5, 1.5, 15 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 12.5, 1.5, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 14.5, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 12.5, 14.5, 15, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 14.5, 3.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single10",
+			"from": [ 0.5, 1.5, 13.5 ],
+			"to": [ 1.5, 2, 15 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 13.5, 1.5, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 14, 15.5, 14.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 14, 1.5, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 13.5, 14, 15, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 14, 2.5, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single11",
+			"from": [ 0.5, 2, 14 ],
+			"to": [ 1.5, 3, 15 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 14, 1.5, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 13, 15.5, 14 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 13, 1.5, 14 ], "texture": "#Wood" },
+				"west": { "uv": [ 14, 13, 15, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 13, 2, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single12",
+			"from": [ 0.5, 3, 14.5 ],
+			"to": [ 15.5, 15, 15 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 1, 15.5, 1.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 1, 15.5, 13 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 1, 15.5, 13 ], "texture": "#Wood" },
+				"west": { "uv": [ 14.5, 1, 15, 13 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 1, 1.5, 13 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single13",
+			"from": [ 0.5, 12.5, 1.5 ],
+			"to": [ 1.5, 15, 2 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 14, 1.5, 14.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 1, 1.5, 3.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 1.5, 1, 2, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 14, 1, 14.5, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single14",
+			"from": [ 0.5, 12.5, 14 ],
+			"to": [ 1.5, 15, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 1.5, 1.5, 2 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 1, 15.5, 3.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 14, 1, 14.5, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 1, 2, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single15",
+			"from": [ 0.5, 13.5, 2 ],
+			"to": [ 1.5, 15, 2.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 13.5, 1.5, 14 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 1, 1.5, 2.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 2, 1, 2.5, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 13.5, 1, 14, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single16",
+			"from": [ 0.5, 13.5, 13.5 ],
+			"to": [ 1.5, 15, 14 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 2, 1.5, 2.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 1, 15.5, 2.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 13.5, 1, 14, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 2, 1, 2.5, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single17",
+			"from": [ 0.5, 14, 2.5 ],
+			"to": [ 1.5, 15, 3.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 12.5, 1.5, 13.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 1, 1.5, 2 ], "texture": "#Wood" },
+				"west": { "uv": [ 2.5, 1, 3.5, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 12.5, 1, 13.5, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single18",
+			"from": [ 0.5, 14, 12.5 ],
+			"to": [ 1.5, 15, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 2.5, 1.5, 3.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 14.5, 1, 15.5, 2 ], "texture": "#Wood" },
+				"west": { "uv": [ 12.5, 1, 13.5, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 2.5, 1, 3.5, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single19",
+			"from": [ 0.5, 14.5, 3.5 ],
+			"to": [ 1.5, 15, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 3.5, 1.5, 12.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 3.5, 1, 12.5, 1.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 3.5, 1, 12.5, 1.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single20",
+			"from": [ 0.5, 15, 0 ],
+			"to": [ 15.5, 15.5, 0.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"up": { "uv": [ 0.5, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 0.5, 15.5, 1 ], "texture": "#Wood" },
+				"west": { "uv": [ 0, 0.5, 0.5, 1 ], "texture": "#Wood" },
+				"east": { "uv": [ 15.5, 0.5, 16, 1 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single21",
+			"from": [ 0.5, 15, 15.5 ],
+			"to": [ 15.5, 15.5, 16 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 0.5, 15.5, 15.5, 16 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 0.5, 15.5, 1 ], "texture": "#Wood" },
+				"west": { "uv": [ 15.5, 0.5, 16, 1 ], "texture": "#Wood" },
+				"east": { "uv": [ 0, 0.5, 0.5, 1 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single22",
+			"from": [ 0.5, 15.5, 0.5 ],
+			"to": [ 15, 16, 15 ],
+			"faces": {
+				"up": { "uv": [ 0.5, 0.5, 15, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 1, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 0.5, 0, 15, 0.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 0, 15, 0.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 0, 15.5, 0.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single23",
+			"from": [ 1, 0.5, 0.5 ],
+			"to": [ 15, 1, 1 ],
+			"faces": {
+				"up": { "uv": [ 1, 0.5, 15, 1 ], "texture": "#Wood" },
+				"north": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 15, 1, 15.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 15, 15, 15.5, 15.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single24",
+			"from": [ 1, 0.5, 15 ],
+			"to": [ 15, 1, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 15, 15.5, 15.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 15, 1, 15.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single25",
+			"from": [ 1, 1, 0.5 ],
+			"to": [ 1.5, 15, 1 ],
+			"faces": {
+				"north": { "uv": [ 14.5, 1, 15, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 1, 1, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 15, 1, 15.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single26",
+			"from": [ 1, 1, 3.5 ],
+			"to": [ 1.5, 14.5, 12.5 ],
+			"faces": {
+				"north": { "uv": [ 14.5, 1.5, 15, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 1.5, 1.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 3.5, 1.5, 12.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 3.5, 1.5, 12.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single27",
+			"from": [ 1, 1, 15 ],
+			"to": [ 3.5, 1.5, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 1, 15, 3.5, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 12.5, 14.5, 15, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 14.5, 3.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 14.5, 1, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single28",
+			"from": [ 1, 1.5, 2.5 ],
+			"to": [ 1.5, 14, 3.5 ],
+			"faces": {
+				"north": { "uv": [ 14.5, 2, 15, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 2.5, 2, 3.5, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 12.5, 2, 13.5, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single29",
+			"from": [ 1, 1.5, 12.5 ],
+			"to": [ 1.5, 14, 13.5 ],
+			"faces": {
+				"south": { "uv": [ 1, 2, 1.5, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 12.5, 2, 13.5, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 2.5, 2, 3.5, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single30",
+			"from": [ 1, 1.5, 15 ],
+			"to": [ 2.5, 2, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 1, 15, 2.5, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 13.5, 14, 15, 14.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 14, 2.5, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 14, 15.5, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 14, 1, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single31",
+			"from": [ 1, 2, 2 ],
+			"to": [ 1.5, 13.5, 2.5 ],
+			"faces": {
+				"north": { "uv": [ 14.5, 2.5, 15, 14 ], "texture": "#Wood" },
+				"west": { "uv": [ 2, 2.5, 2.5, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 13.5, 2.5, 14, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single32",
+			"from": [ 1, 2, 13.5 ],
+			"to": [ 1.5, 13.5, 14 ],
+			"faces": {
+				"south": { "uv": [ 1, 2.5, 1.5, 14 ], "texture": "#Wood" },
+				"west": { "uv": [ 13.5, 2.5, 14, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 2, 2.5, 2.5, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single33",
+			"from": [ 1, 2, 15 ],
+			"to": [ 2, 3, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 1, 15, 2, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 14, 13, 15, 14 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 13, 2, 14 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 13, 15.5, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 13, 1, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single34",
+			"from": [ 1, 3, 1.5 ],
+			"to": [ 1.5, 12.5, 2 ],
+			"faces": {
+				"west": { "uv": [ 1.5, 3.5, 2, 13 ], "texture": "#Wood" },
+				"east": { "uv": [ 14, 3.5, 14.5, 13 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single35",
+			"from": [ 1, 3, 14 ],
+			"to": [ 1.5, 12.5, 14.5 ],
+			"faces": {
+				"west": { "uv": [ 14, 3.5, 14.5, 13 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 3.5, 2, 13 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single36",
+			"from": [ 1, 3, 15 ],
+			"to": [ 1.5, 15, 15.5 ],
+			"faces": {
+				"south": { "uv": [ 1, 1, 1.5, 13 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 1, 15.5, 13 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1, 1, 13 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single37",
+			"from": [ 1, 15.5, 15 ],
+			"to": [ 15, 16, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 1, 0, 15, 0.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 0, 1, 0.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single38",
+			"from": [ 1.5, 1, 14.5 ],
+			"to": [ 15.5, 3, 15 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 13, 14.5, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 1.5, 13, 15.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 14.5, 13, 15, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 13, 1.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single39",
+			"from": [ 1.5, 5, 0.5 ],
+			"to": [ 15, 5.5, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 1.5, 15, 15.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 1.5, 0.5, 15, 14.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 1, 10.5, 14.5, 11 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 10.5, 14.5, 11 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 10.5, 15.5, 11 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single40",
+			"from": [ 1.5, 5.5, 1 ],
+			"to": [ 15.5, 6, 1.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"up": { "uv": [ 1.5, 1, 15.5, 1.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 10, 14.5, 10.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 1.5, 10, 15.5, 10.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 10, 15, 10.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single41",
+			"from": [ 1.5, 5.5, 1.5 ],
+			"to": [ 15, 6, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 1.5, 15, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 1.5, 10, 14.5, 10.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 10, 14.5, 10.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single42",
+			"from": [ 1.5, 10, 0.5 ],
+			"to": [ 15, 10.5, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 1.5, 15, 15.5 ], "texture": "#Wood" },
+				"up": { "uv": [ 1.5, 0.5, 15, 14.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 1, 5.5, 14.5, 6 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 5.5, 14.5, 6 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 5.5, 15.5, 6 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single43",
+			"from": [ 1.5, 10.5, 1 ],
+			"to": [ 15.5, 11, 1.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"up": { "uv": [ 1.5, 1, 15.5, 1.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 5, 14.5, 5.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 1.5, 5, 15.5, 5.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 5, 15, 5.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single44",
+			"from": [ 1.5, 10.5, 1.5 ],
+			"to": [ 15, 11, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 1.5, 15, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 1.5, 5, 14.5, 5.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 5, 14.5, 5.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single45",
+			"from": [ 1.5, 12.5, 15 ],
+			"to": [ 2, 15, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 0.5, 2, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 1.5, 1, 2, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1, 1, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single46",
+			"from": [ 2, 13.5, 15 ],
+			"to": [ 2.5, 15, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 2, 0.5, 2.5, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 2, 1, 2.5, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1, 1, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single47",
+			"from": [ 2.5, 14, 15 ],
+			"to": [ 3.5, 15, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 2.5, 0.5, 3.5, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 2.5, 1, 3.5, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1, 1, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single48",
+			"from": [ 3.5, 14.5, 15 ],
+			"to": [ 15, 15, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 0.5, 15, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 3.5, 1, 15, 1.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1, 1, 1.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single49",
+			"from": [ 12.5, 1, 15 ],
+			"to": [ 15, 1.5, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 12.5, 15, 15, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 12.5, 14.5, 15, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 14.5, 1, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single50",
+			"from": [ 12.5, 14, 15 ],
+			"to": [ 15, 14.5, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 0.5, 15, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 12.5, 1.5, 15, 2 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 1.5, 15.5, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 1.5, 1, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single51",
+			"from": [ 13.5, 1.5, 15 ],
+			"to": [ 15, 2, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 13.5, 15, 15, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 13.5, 14, 15, 14.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 14, 15.5, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 14, 1, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single52",
+			"from": [ 13.5, 13.5, 15 ],
+			"to": [ 15, 14, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 13.5, 0.5, 15, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 13.5, 2, 15, 2.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 2, 15.5, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 2, 1, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single53",
+			"from": [ 14, 2, 15 ],
+			"to": [ 15, 3, 15.5 ],
+			"faces": {
+				"up": { "uv": [ 14, 15, 15, 15.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 14, 13, 15, 14 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 13, 15.5, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 13, 1, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single54",
+			"from": [ 14, 12.5, 15 ],
+			"to": [ 15, 13.5, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 14, 0.5, 15, 1 ], "texture": "#Wood" },
+				"south": { "uv": [ 14, 2.5, 15, 3.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 2.5, 15.5, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 2.5, 1, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single55",
+			"from": [ 14.5, 1, 0.5 ],
+			"to": [ 15, 5, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 1.5, 15, 15.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 1, 11, 1.5, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 14.5, 11, 15, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 11, 14.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 11, 15.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single56",
+			"from": [ 14.5, 3, 15 ],
+			"to": [ 15, 12.5, 15.5 ],
+			"faces": {
+				"south": { "uv": [ 14.5, 3.5, 15, 13 ], "texture": "#Wood" },
+				"west": { "uv": [ 15, 3.5, 15.5, 13 ], "texture": "#Wood" },
+				"east": { "uv": [ 0.5, 3.5, 1, 13 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single57",
+			"from": [ 14.5, 5.5, 0.5 ],
+			"to": [ 15, 10, 1 ],
+			"faces": {
+				"north": { "uv": [ 1, 6, 1.5, 10.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 14.5, 6, 15, 10.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 6, 1, 10.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 15, 6, 15.5, 10.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single58",
+			"from": [ 14.5, 6, 1 ],
+			"to": [ 15.5, 10, 1.5 ],
+			"faces": {
+				"up": { "uv": [ 14.5, 1, 15.5, 1.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 6, 1.5, 10 ], "texture": "#Wood" },
+				"south": { "uv": [ 14.5, 6, 15.5, 10 ], "texture": "#Wood" },
+				"west": { "uv": [ 1, 6, 1.5, 10 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 6, 15, 10 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single59",
+			"from": [ 14.5, 6, 1.5 ],
+			"to": [ 15, 10, 14.5 ],
+			"faces": {
+				"west": { "uv": [ 1.5, 6, 14.5, 10 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 6, 14.5, 10 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single60",
+			"from": [ 14.5, 10.5, 0.5 ],
+			"to": [ 15, 15, 1 ],
+			"faces": {
+				"north": { "uv": [ 1, 1, 1.5, 5.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 14.5, 1, 15, 5.5 ], "texture": "#Wood" },
+				"west": { "uv": [ 0.5, 1, 1, 5.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 15, 1, 15.5, 5.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single61",
+			"from": [ 14.5, 11, 1 ],
+			"to": [ 15.5, 15, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 1, 1.5, 5 ], "texture": "#Wood" },
+				"south": { "uv": [ 14.5, 1, 15.5, 5 ], "texture": "#Wood" },
+				"west": { "uv": [ 1, 1, 1.5, 5 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 1, 15, 5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single62",
+			"from": [ 14.5, 11, 1.5 ],
+			"to": [ 15, 15, 14.5 ],
+			"faces": {
+				"west": { "uv": [ 1.5, 1, 14.5, 5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 1, 14.5, 5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single63",
+			"from": [ 15, 1, 1 ],
+			"to": [ 15.5, 5.5, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 10.5, 1, 15 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 10.5, 15.5, 15 ], "texture": "#Wood" },
+				"west": { "uv": [ 1, 10.5, 1.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 10.5, 15, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single64",
+			"from": [ 15, 1, 1.5 ],
+			"to": [ 15.5, 3, 2 ],
+			"faces": {
+				"up": { "uv": [ 15, 1.5, 15.5, 2 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 13, 15.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 14, 13, 14.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single65",
+			"from": [ 15, 1, 2 ],
+			"to": [ 15.5, 2, 2.5 ],
+			"faces": {
+				"up": { "uv": [ 15, 2, 15.5, 2.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 14, 15.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 13.5, 14, 14, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single66",
+			"from": [ 15, 1, 2.5 ],
+			"to": [ 15.5, 1.5, 3.5 ],
+			"faces": {
+				"up": { "uv": [ 15, 2.5, 15.5, 3.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 14.5, 15.5, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 12.5, 14.5, 13.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single67",
+			"from": [ 15, 1, 12.5 ],
+			"to": [ 15.5, 1.5, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 15, 12.5, 15.5, 14.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 14.5, 1, 15 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 14.5, 3.5, 15 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single68",
+			"from": [ 15, 1.5, 13.5 ],
+			"to": [ 15.5, 2, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 15, 13.5, 15.5, 14.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 14, 1, 14.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 14, 2.5, 14.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single69",
+			"from": [ 15, 2, 14 ],
+			"to": [ 15.5, 3, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 15, 14, 15.5, 14.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 13, 1, 14 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 13, 2, 14 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single70",
+			"from": [ 15, 10, 1 ],
+			"to": [ 15.5, 10.5, 1.5 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 5.5, 1, 6 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 5.5, 15.5, 6 ], "texture": "#Wood" },
+				"east": { "uv": [ 14.5, 5.5, 15, 6 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single71",
+			"from": [ 15, 12.5, 1.5 ],
+			"to": [ 15.5, 15, 2 ],
+			"faces": {
+				"down": { "uv": [ 15, 14, 15.5, 14.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 1, 15.5, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 14, 1, 14.5, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single72",
+			"from": [ 15, 12.5, 14 ],
+			"to": [ 15.5, 15, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 1.5, 15.5, 2 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 1, 1, 3.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1.5, 1, 2, 3.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single73",
+			"from": [ 15, 13.5, 2 ],
+			"to": [ 15.5, 15, 2.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 13.5, 15.5, 14 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 1, 15.5, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 13.5, 1, 14, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single74",
+			"from": [ 15, 13.5, 13.5 ],
+			"to": [ 15.5, 15, 14 ],
+			"faces": {
+				"down": { "uv": [ 15, 2, 15.5, 2.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 1, 1, 2.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 2, 1, 2.5, 2.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single75",
+			"from": [ 15, 14, 2.5 ],
+			"to": [ 15.5, 15, 3.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 12.5, 15.5, 13.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 1, 15.5, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 12.5, 1, 13.5, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single76",
+			"from": [ 15, 14, 12.5 ],
+			"to": [ 15.5, 15, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 2.5, 15.5, 3.5 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 1, 1, 2 ], "texture": "#Wood" },
+				"east": { "uv": [ 2.5, 1, 3.5, 2 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single77",
+			"from": [ 15, 14.5, 3.5 ],
+			"to": [ 15.5, 15, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 3.5, 15.5, 12.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 3.5, 1, 12.5, 1.5 ], "texture": "#Wood" }
+			}
+		},
+		{
+			"__comment": "Wood-Bench-Single78",
+			"from": [ 15, 15.5, 1 ],
+			"to": [ 15.5, 16, 15 ],
+			"faces": {
+				"up": { "uv": [ 15, 1, 15.5, 15 ], "texture": "#Wood" },
+				"north": { "uv": [ 0.5, 0, 1, 0.5 ], "texture": "#Wood" },
+				"south": { "uv": [ 15, 0, 15.5, 0.5 ], "texture": "#Wood" },
+				"east": { "uv": [ 1, 0, 15, 0.5 ], "texture": "#Wood" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"head": {
+			"translation":  [ 0, -30, 0 ],
+			"scale":  [ 1.65, 1.65, 1.65 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

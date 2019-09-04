@@ -1,0 +1,112 @@
+{
+	"__comment": "Designed by Randamonium for The Craftico Project",
+	"textures": {
+		"Black": "block/black_concrete",
+		"particle": "cosmetic/hat/pirate"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Pirate-Hat",
+			"from": [ 4, 0, 0 ],
+			"to": [ 12, 8, 6 ],
+			"faces": {
+				"down": { "uv": [ 0, 6, 5, 11 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 6, 5, 11 ], "texture": "#particle" },
+				"north": { "uv": [ 3, 0, 14, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 3, 0, 14, 16 ], "texture": "#particle" },
+				"west": { "uv": [ 0, 6, 5, 11 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 6, 5, 11 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Pirate-Hat1",
+			"from": [ 0, 3, 0 ],
+			"to": [ 1, 4, 6 ],
+			"faces": {
+				"down": { "uv": [ 0, 10, 1, 16 ], "texture": "#Black" },
+				"up": { "uv": [ 0, 0, 1, 6 ], "texture": "#Black" },
+				"north": { "uv": [ 15, 12, 16, 13 ], "texture": "#Black" },
+				"south": { "uv": [ 0, 12, 1, 13 ], "texture": "#Black" },
+				"west": { "uv": [ 0, 12, 6, 13 ], "texture": "#Black" },
+				"east": { "uv": [ 10, 12, 16, 13 ], "texture": "#Black" }
+			}
+		},
+		{
+			"__comment": "Pirate-Hat2",
+			"from": [ 15, 3, 0 ],
+			"to": [ 16, 4, 6 ],
+			"faces": {
+				"down": { "uv": [ 15, 10, 16, 16 ], "texture": "#Black" },
+				"up": { "uv": [ 15, 0, 16, 6 ], "texture": "#Black" },
+				"north": { "uv": [ 0, 12, 1, 13 ], "texture": "#Black" },
+				"south": { "uv": [ 15, 12, 16, 13 ], "texture": "#Black" },
+				"west": { "uv": [ 0, 12, 6, 13 ], "texture": "#Black" },
+				"east": { "uv": [ 10, 12, 16, 13 ], "texture": "#Black" }
+			}
+		},
+		{
+			"__comment": "Pirate-Hat3",
+			"from": [ 0, 0, 0 ],
+			"to": [ 4, 3, 6 ],
+			"faces": {
+				"down": { "uv": [ 0, 10, 4, 16 ], "texture": "#Black" },
+				"up": { "uv": [ 0, 0, 4, 6 ], "texture": "#Black" },
+				"north": { "uv": [ 12, 13, 16, 16 ], "texture": "#Black" },
+				"south": { "uv": [ 0, 13, 4, 16 ], "texture": "#Black" },
+				"west": { "uv": [ 0, 13, 6, 16 ], "texture": "#Black" },
+				"east": { "uv": [ 10, 13, 16, 16 ], "texture": "#Black" }
+			}
+		},
+		{
+			"__comment": "Pirate-Hat4",
+			"from": [ 12, 0, 0 ],
+			"to": [ 16, 3, 6 ],
+			"faces": {
+				"down": { "uv": [ 12, 10, 16, 16 ], "texture": "#Black" },
+				"up": { "uv": [ 12, 0, 16, 6 ], "texture": "#Black" },
+				"north": { "uv": [ 0, 13, 4, 16 ], "texture": "#Black" },
+				"south": { "uv": [ 12, 13, 16, 16 ], "texture": "#Black" },
+				"west": { "uv": [ 0, 13, 6, 16 ], "texture": "#Black" },
+				"east": { "uv": [ 10, 13, 16, 16 ], "texture": "#Black" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 2.5, 0, 3.5 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 2.5, 0, 3.5 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 90, -25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 90, -25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"gui": {
+			"rotation":  [ 22.5, -45, 0 ],
+			"translation":  [ -2, 1.5, 0 ],
+			"scale":  [ 0.75, 0.75, 0.75 ]
+		},
+		"head": {
+			"translation":  [ 0, 18, 12.5 ],
+			"scale":  [ 1.5, 1.5, 2.5 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.45, 0.45, 0.45 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 4, 6 ]
+		}
+	}
+}

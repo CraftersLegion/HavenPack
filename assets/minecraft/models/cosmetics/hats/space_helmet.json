@@ -1,0 +1,423 @@
+{
+	"__comment": "Designed by Randamonium for The Craftico Project",
+	"textures": {
+		"Helmet-Base": "block/quartz_block_top",
+		"Helmet-Window": "block/cyan_stained_glass",
+		"Helmet-Hinge": "block/piston_inner",
+		"Helmet-Control": "block/detector_rail_on",
+		"Helmet-Wire": "block/iron_door_bottom",
+		"Helmet-Tank": "block/daylight_detector_side",
+		"Helmet-Board": "block/daylight_detector_top"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Space-Helmet",
+			"from": [ 0.5, 1, 0.5 ],
+			"to": [ 15.5, 1.1, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet1",
+			"from": [ 1, 1, 15.5 ],
+			"to": [ 15, 15, 17 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet2",
+			"from": [ -1, 1, 10 ],
+			"to": [ 0.5, 15, 15 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 9.64, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 5.36, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet3",
+			"from": [ 15.5, 1, 10 ],
+			"to": [ 17, 15, 15 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 9.64, 0, 15, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 5.36, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet4",
+			"from": [ -1, 1, 1 ],
+			"to": [ 0.5, 3, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 11, 0 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 12.86, 1, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 10, 14 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 12.86, 9.64, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 5.36, 12.86, 15, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet5",
+			"from": [ 15.5, 1, 1 ],
+			"to": [ 17, 3, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 11, 0 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 12.86, 14, 16 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 10, 14 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 12.86, 9.64, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 5.36, 12.86, 14, 16 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet6",
+			"from": [ 1, 1, -1 ],
+			"to": [ 15, 3, 0.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 12.86, 15, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 12.86, 15, 16 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 12.86, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 12.86, 7, 12 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet7",
+			"from": [ 6.5858, 1, 17.8137 ],
+			"to": [ 9.4142, 15, 19.3137 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 2, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 2, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet8",
+			"from": [ 6.5858, 1, 17.8137 ],
+			"to": [ 9.4142, 15, 19.3137 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 2, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 2, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet9",
+			"from": [ 6.5858, 1, -3.3137 ],
+			"to": [ 9.4142, 3, -1.8137 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 12, 2, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 12, 2, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet10",
+			"from": [ 6.5858, 1, -3.3137 ],
+			"to": [ 9.4142, 3, -1.8137 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 12, 2, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 12, 2, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet11",
+			"from": [ -3.3137, 6.5858, 10 ],
+			"to": [ -1.8137, 9.4142, 15 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 9.64, 0, 15, 2 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 5.36, 2 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet12",
+			"from": [ 17.8137, 6.5858, 10 ],
+			"to": [ 19.3137, 9.4142, 15 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 1 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 1, 15 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 9.64, 0, 15, 2 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 5.36, 2 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet13",
+			"from": [ 1, 17.8137, 6.5858 ],
+			"to": [ 15, 19.3137, 9.4142 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 2 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 2 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet14",
+			"from": [ 1, 15.5, 10 ],
+			"to": [ 15, 17, 15 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 5.5 ], "texture": "#Helmet-Base" },
+				"up": { "uv": [ 0, 0, 15, 5.5 ], "texture": "#Helmet-Base" },
+				"north": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"south": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" },
+				"west": { "uv": [ 0, 0, 7, 0 ], "texture": "#Helmet-Base" },
+				"east": { "uv": [ 0, 0, 16, 1 ], "texture": "#Helmet-Base" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet15",
+			"from": [ 0, 3, 0 ],
+			"to": [ 16, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" },
+				"up": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" },
+				"north": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" },
+				"south": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" },
+				"west": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" },
+				"east": { "uv": [ 9.5, 6.5, 7, 9 ], "texture": "#Helmet-Window" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet16",
+			"from": [ -1.25, 2.5, 7.75 ],
+			"to": [ 0.75, 6, 11.25 ],
+			"rotation": { "origin": [ 8, 3.5, 9.5 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"up": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"north": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"south": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"west": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Hinge" },
+				"east": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Hinge" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet17",
+			"from": [ 15.25, 2.5, 7.75 ],
+			"to": [ 17.25, 6, 11.25 ],
+			"rotation": { "origin": [ 8, 3.5, 9.5 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"up": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"north": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"south": { "uv": [ 5, 5, 6, 6 ], "texture": "#Helmet-Hinge" },
+				"west": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Hinge" },
+				"east": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Hinge" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet18",
+			"from": [ -1.1, 11, 11.5 ],
+			"to": [ -1.099, 13.5, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"west": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Control" },
+				"east": { "uv": [ 5, 5, 11, 11 ], "texture": "#Helmet-Control" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet19",
+			"from": [ -1.1, 4, 12.25 ],
+			"to": [ -1.099, 11, 13.25 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 1 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 1 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 7 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 7, 14 ], "texture": "#-1" },
+				"west": { "uv": [ 0, 0, 2, 16 ], "texture": "#Helmet-Wire" },
+				"east": { "uv": [ 0, 0, 2, 16 ], "texture": "#Helmet-Wire" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet20",
+			"from": [ -1.1, 3.3, 13.4 ],
+			"to": [ -1.099, 6.3, 14.4 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 1 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 1 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 3 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 0, 3 ], "texture": "#-1" },
+				"west": { "uv": [ 0, 0, 2, 8 ], "texture": "#Helmet-Wire" },
+				"east": { "uv": [ 0, 0, 2, 8 ], "texture": "#Helmet-Wire" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet21",
+			"from": [ -1.1, 1, 11 ],
+			"to": [ -1.099, 1.6, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 1.5 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 1.5 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 0.6000004 ], "texture": "#-1" },
+				"south": { "uv": [ 10, 7, 10, 7.6 ], "texture": "#-1" },
+				"west": { "uv": [ 6, 3, 7, 4 ], "texture": "#Helmet-Wire" },
+				"east": { "uv": [ 6, 3, 7, 4 ], "texture": "#Helmet-Wire" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet22",
+			"from": [ 17.1, 6.5, 11.5 ],
+			"to": [ 17.101, 13.5, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"west": { "uv": [ 5, 0, 11, 16 ], "texture": "#Helmet-Tank" },
+				"east": { "uv": [ 5, 0, 11, 16 ], "texture": "#Helmet-Tank" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet23",
+			"from": [ 17.1, 10.5, 14 ],
+			"to": [ 17.101, 11.5, 15.05 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"west": { "uv": [ 5, 0, 11, 16 ], "texture": "#Helmet-Wire" },
+				"east": { "uv": [ 5, 6, 7, 8 ], "texture": "#Helmet-Wire" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet24",
+			"from": [ 19.4137, 10.5, 6.5444 ],
+			"to": [ 19.4147, 11.5, 9.455599 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"north": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"south": { "uv": [ 0, 0, 0, 2.5 ], "texture": "#-1" },
+				"west": { "uv": [ 5, 0, 11, 16 ], "texture": "#Helmet-Wire" },
+				"east": { "uv": [ 5, 6, 10, 8 ], "texture": "#Helmet-Wire" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet25",
+			"from": [ 11.5, 10.5, 17.1 ],
+			"to": [ 15.05, 11.5, 17.101 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3.55, 0 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 3.55, 0 ], "texture": "#-1" },
+				"north": { "uv": [ 4, 5, 10, 7 ], "texture": "#Helmet-Wire" },
+				"south": { "uv": [ 4, 5, 10, 7 ], "texture": "#Helmet-Wire" },
+				"west": { "uv": [ 0, 0, 14, 3 ], "texture": "#-1" },
+				"east": { "uv": [ 0, 0, 0, 1 ], "texture": "#-1" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet26",
+			"from": [ 13.5, 1, 17.1 ],
+			"to": [ 14.5, 11, 17.101 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 1, 0 ], "texture": "#-1" },
+				"up": { "uv": [ 0, 0, 1, 0 ], "texture": "#-1" },
+				"north": { "uv": [ 1, 1, 3, 16 ], "texture": "#Helmet-Wire" },
+				"south": { "uv": [ 1, 1, 3, 16 ], "texture": "#Helmet-Wire" },
+				"west": { "uv": [ 0, 0, 0, 10 ], "texture": "#-1" },
+				"east": { "uv": [ 0, 0, 0, 10 ], "texture": "#-1" }
+			}
+		},
+		{
+			"__comment": "Space-Helmet27",
+			"from": [ 3.5, 4, 17 ],
+			"to": [ 11.5, 13, 17.75 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 8, 0.75 ], "texture": "#Helmet-Board" },
+				"up": { "uv": [ 0, 0, 8, 0.75 ], "texture": "#Helmet-Board" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#Helmet-Board" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#Helmet-Board" },
+				"west": { "uv": [ 0, 0, 0.75, 9 ], "texture": "#Helmet-Board" },
+				"east": { "uv": [ 0, 0, 0.75, 9 ], "texture": "#Helmet-Board" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 22.5, 90, 22.5 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 22.5, 90, 22.5 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"gui": {
+			"rotation":  [ 23.5, 202.5, 0 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, -2.5 ],
+			"scale":  [ 1, 1, 0.75 ]
+		}
+	}
+}

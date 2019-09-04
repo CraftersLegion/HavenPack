@@ -1,0 +1,150 @@
+{
+	"__comment": "Designed by Randamonium for The Craftico Project",
+	"textures": {
+		"Devil-Horns": "block/red_concrete_concrete_powder"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Devil-Horns",
+			"from": [ 13, 11.5, 6.5 ],
+			"to": [ 15, 14.5, 9.5 ],
+			"rotation": { "origin": [ 13, 14.5, 6.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 14.14805, 6.5, 16, 9.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 14.14805, 6.5, 16, 9.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 0, 1.271639, 1.85195, 4.271639 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 14.14805, 1.271639, 16, 4.271639 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 6.5, 1.271639, 9.5, 4.271639 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 6.5, 1.271639, 9.5, 4.271639 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns1",
+			"from": [ 1.125, 12.25, 6.5 ],
+			"to": [ 3.125, 15.25, 9.5 ],
+			"rotation": { "origin": [ 1.125, 15.25, 6.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 6.5, 1.97695, 9.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 0, 6.5, 1.97695, 9.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 14.02305, 0.5216389, 16, 3.521639 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 0, 0.5216389, 1.97695, 3.521639 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 6.5, 0.5216389, 9.5, 3.521639 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 6.5, 0.5216389, 9.5, 3.521639 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns2",
+			"from": [ 14, 12, 6.5 ],
+			"to": [ 16, 14.5, 9.5 ],
+			"rotation": { "origin": [ 14, 14.5, 6.5 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 15.76777, 6.5, 16, 9.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 15.76777, 6.5, 16, 9.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 0, 0.767767, 0.232233, 3.267767 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 15.76777, 0.767767, 16, 3.267767 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 6.5, 0.767767, 9.5, 3.267767 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 6.5, 0.767767, 9.5, 3.267767 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns3",
+			"from": [ 0.5625, 13.4375, 6.5 ],
+			"to": [ 2.5625, 15.9375, 9.5 ],
+			"rotation": { "origin": [ 0.5625, 15.9375, 6.5 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 6.5, 0.7947329, 9.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 0, 6.5, 0.7947329, 9.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 15.20527, 0, 16, 1.830267 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 0, 0, 0.7947329, 1.830267 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 6.5, 0, 9.5, 1.830267 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 6.5, 0, 9.5, 1.830267 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns4",
+			"from": [ 15.625, 14.9375, 7 ],
+			"to": [ 17.625, 16.4375, 9 ],
+			"rotation": { "origin": [ 15.625, 16.4375, 7 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 15.05097, 7, 16, 9 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 15.05097, 7, 16, 9 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 0, 0, 0.9490252, 0.9483194 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 15.05097, 0, 16, 0.9483194 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 7, 0, 9, 0.9483194 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 7, 0, 9, 0.9483194 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns5",
+			"from": [ -1.4375, 14.125, 7 ],
+			"to": [ 0.5625, 15.625, 9 ],
+			"rotation": { "origin": [ -1.4375, 15.625, 7 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 7, 1.136525, 9 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 0, 7, 1.136525, 9 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 14.86347, 0.2608194, 16, 1.760819 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 0, 0.2608194, 1.136525, 1.760819 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 7, 0.2608194, 9, 1.760819 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 7, 0.2608194, 9, 1.760819 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns6",
+			"from": [ 16, 15.5, 7.5 ],
+			"to": [ 17, 17, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 7.5, 1, 8.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 0, 7.5, 1, 8.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 15, 0, 16, 0.5 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 0, 0, 1, 0.5 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 7.5, 0, 8.5, 0.5 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 7.5, 0, 8.5, 0.5 ], "texture": "#Devil-Horns" }
+			}
+		},
+		{
+			"__comment": "Devil-Horns7",
+			"from": [ -1, 15.5, 7.5 ],
+			"to": [ 0, 17, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 15, 7.5, 16, 8.5 ], "texture": "#Devil-Horns" },
+				"up": { "uv": [ 15, 7.5, 16, 8.5 ], "texture": "#Devil-Horns" },
+				"north": { "uv": [ 0, 0, 1, 0.5 ], "texture": "#Devil-Horns" },
+				"south": { "uv": [ 15, 0, 16, 0.5 ], "texture": "#Devil-Horns" },
+				"west": { "uv": [ 7.5, 0, 8.5, 0.5 ], "texture": "#Devil-Horns" },
+				"east": { "uv": [ 7.5, 0, 8.5, 0.5 ], "texture": "#Devil-Horns" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 1, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 1, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 25, 25, 0 ],
+			"translation":  [ 0, -2.5, 0 ],
+			"scale":  [ 0.75, 0.75, 0.75 ]
+		},
+		"ground": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"translation":  [ 0, -6, 0 ]
+		}
+	}
+}
