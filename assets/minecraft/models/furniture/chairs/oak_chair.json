@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by Randamonium with Cubik Studio - https://cubik.studio",
+	"parent": "furniture/chairs/chair",
+	"textures": {
+		"texture": "block/oak_planks"
+	}
+}
