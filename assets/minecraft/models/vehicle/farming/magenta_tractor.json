@@ -1,1 +1,1 @@
-{'parent': 'vehicle/farming/tractor', 'textures': {'color': 'block/magenta_concrete'}}
+{"parent": "vehicle/farming/tractor", "textures": {"color": "block/magenta_concrete"}}

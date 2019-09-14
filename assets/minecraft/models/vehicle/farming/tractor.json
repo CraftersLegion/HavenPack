@@ -4,11 +4,11 @@
 		"seat": "block/black_wool",
 		"axel": "block/light_gray_wool",
 		"color": "block/red_concrete",
-		"detail": "block/anvil_base",
-		"engine": "block/anvil_base",
+		"detail": "block/anvil",
+		"engine": "block/anvil",
 		"rubber": "block/black_wool",
-		"wheel": "block/anvil_base",
-		"rim": "block/anvil_base"
+		"wheel": "block/anvil",
+		"rim": "block/anvil"
 	},
 	"elements": [ 	 
 		{
@@ -1019,23 +1019,36 @@
 		"thirdperson_righthand": {
 			"rotation":  [ 75, 45, 0 ],
 			"translation":  [ 0, 2.5, 0 ],
-			"scale":  [ 0.375, 0.375, 0.375 ]
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
 		},
 		"firstperson_righthand": {
 			"rotation":  [ 0, 45, 0 ],
-			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
 			"scale":  [ 0.4, 0.4, 0.4 ]
 		},
 		"gui": {
-			"rotation":  [ 30, 225, 0 ],
-			"scale":  [ 0.625, 0.625, 0.625 ]
+			"rotation":  [ 30, 45, 0 ],
+			"translation":  [ 0, -1, 0 ],
+			"scale":  [ 0.35, 0.35, 0.35 ]
+		},
+		"head": {
+			"translation":  [ 0, -16, 20 ],
+			"scale":  [ 2, 2, 2 ]
 		},
 		"ground": {
-			"translation":  [ 0, 3, 0 ],
-			"scale":  [ 0.25, 0.25, 0.25 ]
+			"translation":  [ 0, 3, 0 ]
 		},
 		"fixed": {
-			"scale":  [ 0.5, 0.5, 0.5 ]
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
 		}
 	}
 }
