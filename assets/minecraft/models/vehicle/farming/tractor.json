@@ -1040,8 +1040,9 @@
 			"scale":  [ 0.35, 0.35, 0.35 ]
 		},
 		"head": {
-			"translation":  [ 0, -16, 20 ],
-			"scale":  [ 2, 2, 2 ]
+			"translation":  [ 0, -16, -20 ],
+			"scale":  [ 2, 2, 2 ],
+			"rotation": [ 0, 180, 0]
 		},
 		"ground": {
 			"translation":  [ 0, 3, 0 ]
