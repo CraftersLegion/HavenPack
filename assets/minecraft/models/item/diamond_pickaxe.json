@@ -5,10 +5,20 @@
 	},
 	"overrides": [
 		{ "predicate": {"custom_model_data": 1}, "model": "vehicle/farming/red_tractor"},
-		{ "predicate": {"custom_model_data": 2}, "model": "vehicle/wheel/large"},
-		{ "predicate": {"custom_model_data": 3}, "model": "entity/pacman/ghosts/blue"},
-		{ "predicate": {"custom_model_data": 4}, "model": "entity/pacman/ghosts/orange"},
-		{ "predicate": {"custom_model_data": 5}, "model": "entity/pacman/ghosts/red"},
-		{ "predicate": {"custom_model_data": 6}, "model": "entity/vespario"}
+		{ "predicate": {"custom_model_data": 2}, "model": "vehicle/farming/green_tractor"},
+		{ "predicate": {"custom_model_data": 3}, "model": "vehicle/farming/purple_tractor"},
+		{ "predicate": {"custom_model_data": 4}, "model": "vehicle/farming/cyan_tractor"},
+		{ "predicate": {"custom_model_data": 5}, "model": "vehicle/farming/light_gray_tractor"},
+		{ "predicate": {"custom_model_data": 6}, "model": "vehicle/farming/gray_tractor"},
+		{ "predicate": {"custom_model_data": 7}, "model": "vehicle/farming/pink_tractor"},
+		{ "predicate": {"custom_model_data": 8}, "model": "vehicle/farming/lime_tractor"},
+		{ "predicate": {"custom_model_data": 9}, "model": "vehicle/farming/yellow_tractor"},
+		{ "predicate": {"custom_model_data": 10}, "model": "vehicle/farming/light_blue_tractor"},
+		{ "predicate": {"custom_model_data": 11}, "model": "vehicle/farming/magenta_tractor"},
+		{ "predicate": {"custom_model_data": 12}, "model": "vehicle/farming/orange_tractor"},
+		{ "predicate": {"custom_model_data": 13}, "model": "vehicle/farming/black_tractor"},
+		{ "predicate": {"custom_model_data": 14}, "model": "vehicle/farming/brown_tractor"},
+		{ "predicate": {"custom_model_data": 15}, "model": "vehicle/farming/blue_tractor"},
+		{ "predicate": {"custom_model_data": 16}, "model": "vehicle/farming/white_tractor"}
 	]
 }
