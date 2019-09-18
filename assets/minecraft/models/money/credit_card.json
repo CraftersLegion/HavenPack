@@ -1,8 +1,8 @@
 {
 	"__comment": "Designed by Randamonium with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"back": "debit_card_back",
-		"front": "debit_card_front"
+		"back": "money/credit_card_back",
+		"front": "money/credit_card_front"
 	},
 	"elements": [ 	 
 		{
