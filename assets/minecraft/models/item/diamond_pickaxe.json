@@ -20,6 +20,21 @@
 		{ "predicate": {"custom_model_data": 14}, "model": "vehicle/farming/brown_tractor"},
 		{ "predicate": {"custom_model_data": 15}, "model": "vehicle/farming/blue_tractor"},
 		{ "predicate": {"custom_model_data": 16}, "model": "vehicle/farming/white_tractor"},
-		{ "predicate": {"custom_model_data": 17}, "model": "vehicle/road/car/smart_car"}
+		{ "predicate": {"custom_model_data": 17}, "model": "vehicle/farming/red_smart_car"},
+		{ "predicate": {"custom_model_data": 18}, "model": "vehicle/farming/green_smart_car"},
+		{ "predicate": {"custom_model_data": 19}, "model": "vehicle/farming/purple_smart_car"},
+		{ "predicate": {"custom_model_data": 20}, "model": "vehicle/farming/cyan_smart_car"},
+		{ "predicate": {"custom_model_data": 21}, "model": "vehicle/farming/light_gray_smart_car"},
+		{ "predicate": {"custom_model_data": 22}, "model": "vehicle/farming/gray_smart_car"},
+		{ "predicate": {"custom_model_data": 23}, "model": "vehicle/farming/pink_smart_car"},
+		{ "predicate": {"custom_model_data": 24}, "model": "vehicle/farming/lime_smart_car"},
+		{ "predicate": {"custom_model_data": 25}, "model": "vehicle/farming/yellow_smart_car"},
+		{ "predicate": {"custom_model_data": 26}, "model": "vehicle/farming/light_blue_smart_car"},
+		{ "predicate": {"custom_model_data": 27}, "model": "vehicle/farming/magenta_smart_car"},
+		{ "predicate": {"custom_model_data": 28}, "model": "vehicle/farming/orange_smart_car"},
+		{ "predicate": {"custom_model_data": 29}, "model": "vehicle/farming/black_smart_car"},
+		{ "predicate": {"custom_model_data": 30}, "model": "vehicle/farming/brown_smart_car"},
+		{ "predicate": {"custom_model_data": 31}, "model": "vehicle/farming/blue_smart_car"},
+		{ "predicate": {"custom_model_data": 32}, "model": "vehicle/farming/white_smart_car"}
 	]
 }
