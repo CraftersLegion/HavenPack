@@ -3,17 +3,17 @@
 	"textures": {
 		"seat": "block/black_wool",
 		"indicator_light": "vehicle/indicator",
-		"axel": "block/anvil_color",
+		"axel": "block/anvil_base",
 		"brake_light": "vehicle/brakelight",
-		"steering_wheel_shaft": "block/anvil_color",
+		"steering_wheel_shaft": "block/anvil_base",
 		"headlights": "block/daylight_detector_top",
 		"windshield": "vehicle/windshield",
 		"grill": "vehicle/grill",
-		"frame": "block/anvil_color",
+		"frame": "block/anvil_base",
 		"color": "block/light_blue_concrete",
 		"rubber": "block/black_concrete",
-		"rim": "block/anvil_color",
-		"concrete_gray": "block/anvil_color"
+		"rim": "block/anvil_base",
+		"concrete_gray": "block/anvil_base"
 	},
 	"elements": [
 		{
@@ -4698,8 +4698,8 @@
 		},
 		"head": {
 			"rotation": [0, 180, 0],
-			"translation": [0, 6, 0],
-			"scale": [3.5, 3.5, 3.5]
+			"translation": [0, 6, -10],
+			"scale": [3, 3.5, 3]
 		},
 		"fixed": {
 			"rotation": [0, -90, 0],
