@@ -35,6 +35,22 @@
 		{ "predicate": {"custom_model_data": 29}, "model": "vehicle/road/car/black_smart_car"},
 		{ "predicate": {"custom_model_data": 30}, "model": "vehicle/road/car/brown_smart_car"},
 		{ "predicate": {"custom_model_data": 31}, "model": "vehicle/road/car/blue_smart_car"},
-		{ "predicate": {"custom_model_data": 32}, "model": "vehicle/road/car/white_smart_car"}
+		{ "predicate": {"custom_model_data": 32}, "model": "vehicle/road/car/white_smart_car"},
+		{ "predicate": {"custom_model_data": 33}, "model": "vehicle/road/car/red_bumper_car"},
+		{ "predicate": {"custom_model_data": 34}, "model": "vehicle/road/car/green_bumper_car"},
+		{ "predicate": {"custom_model_data": 35}, "model": "vehicle/road/car/purple_bumper_car"},
+		{ "predicate": {"custom_model_data": 36}, "model": "vehicle/road/car/cyan_bumper_car"},
+		{ "predicate": {"custom_model_data": 37}, "model": "vehicle/road/car/light_gray_bumper_car"},
+		{ "predicate": {"custom_model_data": 38}, "model": "vehicle/road/car/gray_bumper_car"},
+		{ "predicate": {"custom_model_data": 39}, "model": "vehicle/road/car/pink_bumper_car"},
+		{ "predicate": {"custom_model_data": 40}, "model": "vehicle/road/car/lime_bumper_car"},
+		{ "predicate": {"custom_model_data": 41}, "model": "vehicle/road/car/yellow_bumper_car"},
+		{ "predicate": {"custom_model_data": 42}, "model": "vehicle/road/car/light_blue_bumper_car"},
+		{ "predicate": {"custom_model_data": 43}, "model": "vehicle/road/car/magenta_bumper_car"},
+		{ "predicate": {"custom_model_data": 44}, "model": "vehicle/road/car/orange_bumper_car"},
+		{ "predicate": {"custom_model_data": 45}, "model": "vehicle/road/car/black_bumper_car"},
+		{ "predicate": {"custom_model_data": 46}, "model": "vehicle/road/car/brown_bumper_car"},
+		{ "predicate": {"custom_model_data": 47}, "model": "vehicle/road/car/blue_bumper_car"},
+		{ "predicate": {"custom_model_data": 48}, "model": "vehicle/road/car/white_bumper_car"}
 	]
 }
